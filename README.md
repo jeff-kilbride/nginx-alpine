@@ -13,9 +13,9 @@ I have customized the shell by adding `aliases.sh` to the `/etc/profile.d` direc
 
 ## PHP-FPM
 
-This image is designed to work with my `php-fpm` image:  `jkilbride/php-fpm-alpine`. To run these two images together, download the `docker-compose.yml` file from my repo and type `docker-compose up -d`. Then point your web browser to `http://[your-docker-host]:8080/info.php`. You should see the output of the `phpinfo()` command. See the [Docker documentation on docker-compose](https://docs.docker.com/compose/overview/) for more info.
+This image is designed to work with my `php-fpm` image:  `jkilbride/php-fpm-alpine`. To run these two images together, download the `docker-compose.yml` file from my repo and type `docker-compose up -d`. Then point your web browser to `http://[your-docker-host]:8080/info.php`. You should see the output of the `phpinfo()` command. [See the Docker documentation on docker-compose](https://docs.docker.com/compose/overview/) for more info.
 
-For a more interesting example, you can inject your own codebase into the `/var/www/app/webroot` directory of the `php-fpm-alpine` image using a bind mount or a data volume. See the [Docker documentation on volumes](https://docs.docker.com/engine/userguide/containers/dockervolumes/) for more info. This is meant to be a simple example of connecting `nginx` and `php-fpm` on `alpine`, and can be used as the starting point for much more complex environments.
+For a more interesting example, you can inject your own codebase into the `/var/www/app/webroot` directory of the `php-fpm-alpine` image using a bind mount or a data volume. [See the Docker documentation on volumes](https://docs.docker.com/engine/userguide/containers/dockervolumes/) for more info. This is meant to be a simple example of connecting `nginx` and `php-fpm` on `alpine`, and can be used as the starting point for much more complex environments.
 
 ## Maintainer
 
