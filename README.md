@@ -1,6 +1,6 @@
 # Nginx Docker Image on Alpine
 
-This is a simple `nginx` installation running on Alpine Linux. It utilizes the official `nginx:1.10-alpine` release and updates the configuration, setting `/var/www/app/webroot` as the document root. It also sets up the `fast-cgi` configuration to pass `php` requests to a container at the following URL:  `php-fpm:9000`. See below for more details.
+This is a simple `nginx` installation running on Alpine Linux. It utilizes the official `nginx:1.12-alpine` release and updates the configuration, setting `/var/www/app/webroot` as the document root. It also sets up the `fast-cgi` configuration to pass `php` requests to a container at the following URL:  `php-fpm:9000`. See below for more details.
 
 This image is created to enhance my own workflow. You are more than welcome to use it, if you are interested.
 

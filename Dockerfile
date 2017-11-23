@@ -1,4 +1,4 @@
-FROM nginx:1.10-alpine
+FROM nginx:1.12-alpine
 
 MAINTAINER Jeff Kilbride <jeff@kilbride.com>
 
